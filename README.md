@@ -60,37 +60,37 @@ To complete this project, you need to create the following files and directories
 
 QueryDashboard/
 
-│── app/                    # Main application logic and components
+│── app/                      # Main application logic and components
 
-│── components/             # Reusable React components
+│── components/               # Reusable React components
 
-│── hooks/                  # Custom React hooks for state and side effects
+│── hooks/                    # Custom React hooks for state and side effects
 
-│── lib/                    # Utility functions and libraries
+│── lib/                      # Utility functions and libraries
 
-│── public/                 # Static assets (images, fonts, etc.)
+│── public/                   # Static assets (images, fonts, etc.)
 
-│── styles/                 # Styling files (Tailwind CSS or Material-UI)
+│── styles/                   # Styling files (Tailwind CSS or Material-UI)
 
-│── .gitignore              # Git ignore file
+│── .gitignore                # Git ignore file
 
-│── README.md               # Project documentation
+│── README.md                 # Project documentation
 
-│── components.json         # Component metadata/configuration
+│── components.json           # Component metadata/configuration
 
-│── next.config.mjs         # Next.js configuration file
+│── next.config.mjs           # Next.js configuration file
 
-│── package-lock.json       # npm dependencies lock file
+│── package-lock.json         # npm dependencies lock file
 
-│── package.json            # Project metadata and dependencies
+│── package.json              # Project metadata and dependencies
 
-│── pnpm-lock.yaml          # pnpm dependencies lock file
+│── pnpm-lock.yaml            # pnpm dependencies lock file
 
-│── postcss.config.mjs      # PostCSS configuration
+│── postcss.config.mjs        # PostCSS configuration
 
-│── tailwind.config.ts      # Tailwind CSS configuration
+│── tailwind.config.ts        # Tailwind CSS configuration
 
-│── tsconfig.json           # TypeScript configuration
+│── tsconfig.json             # TypeScript configuration
 
 
 ## *🛠️ Installation & Usage*
