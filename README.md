@@ -2,7 +2,7 @@
 
 Welcome to the Query Dashboard Prototype, a React-based single-page application (SPA) designed to simulate an AI-powered data analytics tool. This project is part of an assignment for a frontend engineering internship.
 
-🚀 Objective
+## *🚀 Objective*
 
 The goal of this project is to develop a strategic marketing approach for a Gen AI Analytics tool that empowers non-technical teams to:
 
@@ -14,9 +14,9 @@ Eliminate dependency on data teams.
 
 Make faster, data-driven decisions.
 
-📜 Features
+## *📜 Features*
 
-🖥️ UI Components
+*🖥️ UI Components*
 
 Query Input Field: Accepts natural language queries and provides AI-powered suggestions.
 
@@ -26,7 +26,7 @@ Results Display Area: Shows mock data visualizations.
 
 Loading & Error States: Handles query processing and error scenarios.
 
-🔧 State Management
+*🔧 State Management*
 
 Uses Redux for global state management.
 
@@ -34,7 +34,7 @@ Manages query submission, processing, and result states.
 
 Includes actions and reducers for handling query interactions.
 
-🎨 Design Considerations
+*🎨 Design Considerations*
 
 Clean and modern UI.
 
@@ -42,7 +42,7 @@ Responsive design.
 
 Intuitive user experience.
 
-🛠️ Tech Stack
+*🛠️ Tech Stack*
 
 Frontend: React.js
 
@@ -52,7 +52,7 @@ Styling: Tailwind CSS or Material-UI
 
 Data Visualization: Recharts or Chart.js (optional)
 
-📂 Project Structure & Files
+## *📂 Project Structure & Files*
 
 To complete this project, you need to create the following files and directories:
 
@@ -75,39 +75,9 @@ QueryDashboard/
 │── package.json                  # Project dependencies
 │── README.md                     # Project documentation
 
-📢 Submission Requirements
 
-Host the project on GitHub.
 
-Deploy the frontend (Netlify/Vercel recommended).
-
-Provide a detailed README with:
-
-Project Overview
-
-Features
-
-Tech Stack
-
-File Structure
-
-Installation & Usage
-
-⚡ Evaluation Criteria
-
-Your submission will be evaluated based on:
-
-React component structure
-
-State management efficiency
-
-UI/UX design
-
-Code quality
-
-Creativity in simulating AI query interaction
-
-🛠️ Installation & Usage
+## *🛠️ Installation & Usage*
 
 Clone the repository:
 
@@ -122,6 +92,6 @@ Start the development server:
 
 npm start
 
-📌 Deployment
+## *📌 Deployment*
 
 To deploy your project, use a free hosting platform like Netlify or Vercel. Follow their deployment guides to push your project live.
