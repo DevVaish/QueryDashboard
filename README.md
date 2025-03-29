@@ -59,21 +59,37 @@ Welcome to the Query Dashboard Prototype, a React-based single-page application 
 To complete this project, you need to create the following files and directories:
 
 📂 QueryDashboard/ 
+
 ├── 📂 app/ - Main application logic and components
+
 ├── 📂 components/ - Reusable React components
+
 ├── 📂 hooks/ - Custom React hooks for state and side effects
+
 ├── 📂 lib/ - Utility functions and libraries
+
 ├── 📂 public/ - Static assets (images, fonts, etc.)
+
 ├── 📂 styles/ - Styling files (Tailwind CSS or Material-UI)
+
 ├── 📄 .gitignore - Git ignore file
+
 ├── 📄 README.md - Project documentation
+
 ├── 📄 components.json - Component metadata/configuration
+
 ├── 📄 next.config.mjs - Next.js configuration file
+
 ├── 📄 package-lock.json - npm dependencies lock file
+
 ├── 📄 package.json - Project metadata and dependencies
+
 ├── 📄 pnpm-lock.yaml - pnpm dependencies lock file
+
 ├── 📄 postcss.config.mjs - PostCSS configuration
+
 ├── 📄 tailwind.config.ts - Tailwind CSS configuration
+
 ├── 📄 tsconfig.json - TypeScript configuration
 
 
