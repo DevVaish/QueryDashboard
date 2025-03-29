@@ -58,39 +58,22 @@ Welcome to the Query Dashboard Prototype, a React-based single-page application 
 
 To complete this project, you need to create the following files and directories:
 
-QueryDashboard/
-
-│── app/                      # Main application logic and components
-
-│── components/               # Reusable React components
-
-│── hooks/                    # Custom React hooks for state and side effects
-
-│── lib/                      # Utility functions and libraries
-
-│── public/                   # Static assets (images, fonts, etc.)
-
-│── styles/                   # Styling files (Tailwind CSS or Material-UI)
-
-│── .gitignore                # Git ignore file
-
-│── README.md                 # Project documentation
-
-│── components.json           # Component metadata/configuration
-
-│── next.config.mjs           # Next.js configuration file
-
-│── package-lock.json         # npm dependencies lock file
-
-│── package.json              # Project metadata and dependencies
-
-│── pnpm-lock.yaml            # pnpm dependencies lock file
-
-│── postcss.config.mjs        # PostCSS configuration
-
-│── tailwind.config.ts        # Tailwind CSS configuration
-
-│── tsconfig.json             # TypeScript configuration
+📂- **app/**: Contains the main application logic and components.
+📂- **components/**: Holds reusable React components used throughout the application.
+📂- **hooks/**: Includes custom React hooks to manage state and side effects.
+📂- **lib/**: Stores utility functions and libraries that support the application's functionality.
+📂- **public/**: Contains static assets such as images, fonts, and other publicly accessible resources.
+📂- **styles/**: Includes styling files, likely using Tailwind CSS or Material-UI, to define the application's appearance.
+-- **.gitignore**: Specifies files and directories that should be ignored by Git version control.
+-- **README.md**: Provides an overview of the project, including objectives, features, and setup instructions.
+-- **components.json**: Potentially lists component metadata or configurations used in the project.
+-- **next.config.mjs**: Configuration file for Next.js, indicating that the project uses the Next.js framework.
+-- **package-lock.json**: Records the exact versions of npm dependencies installed.
+-- **package.json**: Contains project metadata, scripts, and a list of dependencies.
+-- **pnpm-lock.yaml**: Similar to package-lock.json but specific to the pnpm package manager.
+-- **postcss.config.mjs**: Configuration for PostCSS, a tool for transforming CSS with JavaScript plugins.
+-- **tailwind.config.ts**: Configuration file for Tailwind CSS, used to customize design aspects.
+-- **tsconfig.json**: Configuration file for TypeScript, specifying compiler options and project settings.
 
 
 ## *🛠️ Installation & Usage*
