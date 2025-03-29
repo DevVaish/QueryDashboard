@@ -56,7 +56,7 @@ export default function Dashboard() {
 
                 <Tabs value={activeTab} onValueChange={setActiveTab} className="mt-6">
                   <TabsList className="grid w-full grid-cols-2 bg-gray-200 rounded-md">
-                    <TabsTrigger value="results">Results</TabsTrigger>
+                    <TabsTrigger  value="results">Results</TabsTrigger>
                     <TabsTrigger value="history">Query History</TabsTrigger>
                   </TabsList>
                   <TabsContent value="results" className="mt-4">
