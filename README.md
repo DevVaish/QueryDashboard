@@ -4,93 +4,94 @@ Welcome to the Query Dashboard Prototype, a React-based single-page application 
 
 ## *🚀 Objective*
 
-The goal of this project is to develop a strategic marketing approach for a Gen AI Analytics tool that empowers non-technical teams to:
+-- The goal of this project is to develop a strategic marketing approach for a Gen AI Analytics tool that empowers non-technical teams to:
 
-Ask complex business questions directly.
+-- Ask complex business questions directly.
 
-Get instant, accurate insights from databases.
+-- Get instant, accurate insights from databases.
 
-Eliminate dependency on data teams.
+-- Eliminate dependency on data teams.
 
-Make faster, data-driven decisions.
+-- Make faster, data-driven decisions.
+
 
 ## *📜 Features*
 
-*🖥️ UI Components*
+## 🖥️ UI Components
 
-Query Input Field: Accepts natural language queries and provides AI-powered suggestions.
+-- Query Input Field: Accepts natural language queries and provides AI-powered suggestions.
 
-Query History Section: Displays past queries.
+-- Query History Section: Displays past queries.
 
-Results Display Area: Shows mock data visualizations.
+-- Results Display Area: Shows mock data visualizations.
 
-Loading & Error States: Handles query processing and error scenarios.
+-- Loading & Error States: Handles query processing and error scenarios.
 
-*🔧 State Management*
+## 🔧 State Management
 
-Uses Redux for global state management.
+-- Uses Redux for global state management.
 
-Manages query submission, processing, and result states.
+-- Manages query submission, processing, and result states.
 
-Includes actions and reducers for handling query interactions.
+-- Includes actions and reducers for handling query interactions.
 
-*🎨 Design Considerations*
+## 🎨 Design Considerations
 
-Clean and modern UI.
+-- Clean and modern UI.
 
-Responsive design.
+-- Responsive design.
 
-Intuitive user experience.
+-- Intuitive user experience.
 
-*🛠️ Tech Stack*
+## 🛠️ Tech Stack
 
-Frontend: React.js
+-- Frontend: React.js
 
-State Management: Redux
+-- State Management: Redux
 
-Styling: Tailwind CSS or Material-UI
+-- Styling: Tailwind CSS or Material-UI
 
-Data Visualization: Recharts or Chart.js (optional)
+-- Data Visualization: Recharts or Chart.js (optional)
+
 
 ## *📂 Project Structure & Files*
 
 To complete this project, you need to create the following files and directories:
 
 QueryDashboard/
-│── public/
-│   ├── index.html
-│── src/
-│   ├── components/
-│   │   ├── QueryInput.js        # Query input field with AI-powered suggestions
-│   │   ├── QueryHistory.js      # Displays past queries
-│   │   ├── ResultsDisplay.js    # Displays mock data visualizations
-│   │   ├── Loader.js            # Loading state component
-│   │   ├── Error.js             # Error handling component
-│   ├── store/
-│   │   ├── actions.js           # Actions for state management
-│   │   ├── reducers.js          # Reducers for query interactions
-│   │   ├── store.js             # Redux store configuration
-│   ├── App.js                    # Main application component
-│   ├── index.js                  # React root file
-│── package.json                  # Project dependencies
-│── README.md                     # Project documentation
-
+│── app/                    # Main application logic and components
+│── components/             # Reusable React components
+│── hooks/                  # Custom React hooks for state and side effects
+│── lib/                    # Utility functions and libraries
+│── public/                 # Static assets (images, fonts, etc.)
+│── styles/                 # Styling files (Tailwind CSS or Material-UI)
+│── .gitignore              # Git ignore file
+│── README.md               # Project documentation
+│── components.json         # Component metadata/configuration
+│── next.config.mjs         # Next.js configuration file
+│── package-lock.json       # npm dependencies lock file
+│── package.json            # Project metadata and dependencies
+│── pnpm-lock.yaml          # pnpm dependencies lock file
+│── postcss.config.mjs      # PostCSS configuration
+│── tailwind.config.ts      # Tailwind CSS configuration
+│── tsconfig.json           # TypeScript configuration
 
 
 ## *🛠️ Installation & Usage*
 
-Clone the repository:
+1. Clone the repository:
 
 git clone https://github.com/DevVaish/QueryDashboard.git
 cd QueryDashboard
 
-Install dependencies:
+2. Install dependencies:
 
 npm install
 
-Start the development server:
+3. Start the development server:
 
 npm start
+
 
 ## *📌 Deployment*
 
