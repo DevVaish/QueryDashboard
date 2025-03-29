@@ -90,7 +90,5 @@ body {
   }
   body {
     @apply bg-background text-foreground;
-    background-attachment: fixed; /* Ensures background remains fixed */
-    background-size: cover; /* Ensures it covers the full viewport */
-  }
+      }
 }
