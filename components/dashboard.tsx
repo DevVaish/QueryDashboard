@@ -23,7 +23,7 @@ export default function Dashboard() {
           <span className={darkMode ? "text-white" : "text-white"}>Data Query </span>
           <span className="text-orange-500">Dashboard</span>
         </h1>
-        <p className={`text-lg ${darkMode ? "text-gray-300" : "text-gray-600"}`}>
+        <p className={`text-lg ${darkMode ? "text-gray-300" : "text-white"}`}>
           Ask questions about your business data in natural language
         </p>
         <button
