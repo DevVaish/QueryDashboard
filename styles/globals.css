@@ -90,5 +90,7 @@ body {
   }
   body {
     @apply bg-background text-foreground;
+    background-attachment: fixed; 
+    background-size: cover; 
   }
 }
