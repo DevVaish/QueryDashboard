@@ -14,7 +14,7 @@ export default function Dashboard() {
   return (
     <div
       className={`min-h-screen transition-colors duration-300 ${
-        darkMode ? "bg-gray-700" : "bg-gradient-to-r from-[#6a11cb] to-[#2575fc] h-screen"
+        darkMode ? "bg-gray-700" : "bg-gradient-to-r from-[#6a11cb] to-[#2575fc] min-h-screen"
       }`}
     >
       {/* Header Section */}
