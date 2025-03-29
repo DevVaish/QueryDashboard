@@ -19,6 +19,7 @@ Welcome to the Query Dashboard Prototype, a React-based single-page application 
 
 🖥️ UI Components
 
+
 -- Query Input Field: Accepts natural language queries and provides AI-powered suggestions.
 
 -- Query History Section: Displays past queries.
@@ -26,6 +27,7 @@ Welcome to the Query Dashboard Prototype, a React-based single-page application 
 -- Results Display Area: Shows mock data visualizations.
 
 -- Loading & Error States: Handles query processing and error scenarios.
+
 
 🔧 State Management
 
@@ -35,6 +37,7 @@ Welcome to the Query Dashboard Prototype, a React-based single-page application 
 
 -- Includes actions and reducers for handling query interactions.
 
+
 🎨 Design Considerations
 
 -- Clean and modern UI.
@@ -42,6 +45,7 @@ Welcome to the Query Dashboard Prototype, a React-based single-page application 
 -- Responsive design.
 
 -- Intuitive user experience.
+
 
 🛠️ Tech Stack
 
@@ -93,20 +97,21 @@ To complete this project, you need to create the following files and directories
 ├── 📄 tsconfig.json - TypeScript configuration
 
 
+
 ## *🛠️ Installation & Usage*
 
 1. Clone the repository:
 
-git clone https://github.com/DevVaish/QueryDashboard.git
-cd QueryDashboard
+-- git clone https://github.com/DevVaish/QueryDashboard.git
+-- cd QueryDashboard
 
 2. Install dependencies:
 
-npm install
+-- npm install
 
 3. Start the development server:
 
-npm start
+-- npm start
 
 
 ## *📌 Deployment*
