@@ -114,6 +114,6 @@ To complete this project, you need to create the following files and directories
 -- npm start
 
 
-## *📌 Deployment*
+## * 🚀 Live Demo*
 
-To deploy your project, use a free hosting platform like Netlify or Vercel. Follow their deployment guides to push your project live.
+ https://query-dashboard-data.vercel.app/ 
