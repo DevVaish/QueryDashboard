@@ -49,7 +49,7 @@ export default function Dashboard() {
           <div className="lg:col-span-2 relative -top-10">
             <Card className={`h-full ${darkMode ? "bg-gray-200" : "bg-gray-100"} shadow-2xl rounded-lg transform hover:scale-[1.02] transition duration-300`}>
               <CardHeader className="pb-2">
-                <CardTitle className="text-gray-800 text-xl">Query Your Data</CardTitle>
+                <CardTitle className="text-gray-800 text-xl">Enter Your Query</CardTitle>
               </CardHeader>
               <CardContent>
                 <QueryInput />
