@@ -23,9 +23,9 @@ export default function Dashboard() {
           <span className={darkMode ? "text-white" : "text-white"}>Data Query </span>
           <span className="text-orange-500">Dashboard</span>
         </h1>
-        <p className={`text-lg ${darkMode ? "text-gray-300" : "text-white"}`}>
-          Ask questions about your business data in natural language
-        </p>
+
+
+        
         <button
           onClick={() => setDarkMode(!darkMode)}
           className="absolute top-4 right-4 w-10 h-10 rounded-full bg-gray-200 text-gray-800 shadow-md hover:bg-gray-300 transition flex items-center justify-center"
